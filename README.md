@@ -1,4 +1,7 @@
 # SecureChat — Mensageria Segura Multi-Cliente
+Autores:  Jefferson Marques - 430359
+          Gabriel Barbosa - 539956
+          Elenildo Vasconcelo - 508287
 
 ## 1. Descrição Geral
 

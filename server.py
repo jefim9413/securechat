@@ -97,7 +97,7 @@ async def handle_client(reader: asyncio.StreamReader, writer: asyncio.StreamWrit
                 continue
 
             try:
-                plaintext = aead_decrypt(sess.key_c2s, nonce, ct_tag, aad)
+                plaintext = aead_decrypt(sess.key_c2s, nonce, ct_tag, aad) 
             except Exception:
                 print(f"[!] Tag inválida / falha de autenticação sender={hex_id(sender_id)}")
                 continue
